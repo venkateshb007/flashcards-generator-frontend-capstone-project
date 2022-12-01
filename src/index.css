@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: rgba(212, 222, 196, 0.436);
+}
+
+.btn {
+    @apply flex mb-3  bg-slate-50 px-6 h-10 w-full font-semibold border border-gray-200 rounded-md shadow-md;
+}
+
+.absolute-center{
+  @apply w-8 h-8 rounded-full flex items-center justify-center;
+}
+
+.before, .after{
+  @apply active:text-gray-500 cursor-pointer;
+}

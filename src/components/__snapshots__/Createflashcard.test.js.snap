@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <form
+    action="#"
+  >
+    <div
+      class="pt-2 sm:pt-5 mx-7 sm:mx-12 md:mx-20 lg:mx-24"
+    >
+      <div
+        class="grid sm:grid-cols-1 gap-6"
+      >
+        <div
+          class="p-6 sm:p-10 bg-slate-50 rounded-md shadow-lg"
+        >
+          <div
+            class="sm:flex"
+          >
+            <div>
+              <label
+                class="flex text-gray-500 mb-0.5 text-sm"
+              >
+                Create Group *
+              </label>
+              <input
+                class="placeholder-gray-300 mb-1 p-2 h-8 w-full sm:w-60 border border-gray-400 rounded-sm focus:outline-none"
+                name="groupname"
+                placeholder="Enter Groupname"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="w-36 h-8 my-2 sm:mx-4 sm:my-5 border border-gray-400 rounded-sm hover:cursor-pointer "
+            >
+              <div
+                class="text-purple-700 "
+              >
+                <span
+                  class="text-xs flex items-center justify-center font-semibold "
+                >
+                  <svg
+                    class="h-auto w-6 mt-1 mr-2"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15.01l1.41 1.41L11 14.84V19h2v-4.16l1.59 1.59L16 15.01 12.01 11z"
+                    />
+                  </svg>
+                  Upload Image
+                </span>
+              </div>
+              <input
+                class="hidden"
+                type="file"
+              />
+            </div>
+          </div>
+          <label
+            class="block mb-0.5 mt-2 text-gray-500 text-sm"
+          >
+            Add Description
+          </label>
+          <textarea
+            class="w-2/3 p-2 text-sm border border-gray-400 rounded-sm placeholder-gray-300 focus:outline-none "
+            name="description"
+            placeholder="Describe the roles,responsibility,skills required for the job and help candidate understand the role better."
+            type="text"
+          />
+        </div>
+        <div
+          class="py-3 bg-slate-50 rounded-md shadow-lg"
+        >
+          <div
+            class="grid grid-cols-1 px-6 sm:px-10 sm:w-auto sm:flex"
+          >
+            <div
+              class="bg-green-500 mt-3  sm:mt-5 sm:mr-4 h-6 w-6 rounded-full text-white shrink-0"
+            >
+              <span
+                class="flex items-center justify-center text-sm font-bold"
+              >
+                1
+              </span>
+            </div>
+            <div
+              class="w-full sm:mt-4 sm:mr-4"
+            >
+              <label
+                class="block mb-0.5 text-gray-500 text-sm"
+              >
+                Enter Term *
+              </label>
+              <input
+                class="placeholder-gray-300 w-full p-2 h-8 border border-gray-400 rounded-sm focus:outline-none"
+                name="flashterms.0.term"
+                placeholder="Enter Term"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              class="mt-2 sm:mt-4 sm:ml-10 md:ml-10 lg:ml-10 w-full"
+            >
+              <label
+                class="block mb-0.5 text-gray-500 text-sm"
+              >
+                Enter Defination *
+              </label>
+              <input
+                class="placeholder-gray-300 p-2 h-8 w-full border border-gray-400 rounded-sm focus:outline-none"
+                name="flashterms[0].defination"
+                placeholder="Enter Defination"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            class="flex font-semibold pt-4 pb-2 ml-6 sm:ml-16 text-blue-600"
+            type="button"
+          >
+            <svg
+              class="self-center mr-1"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+              />
+            </svg>
+             Add more
+          </button>
+        </div>
+      </div>
+      <div
+        class="my-10 grid place-content-center"
+      >
+        <button
+          class="px-14 py-1.5 rounded-sm bg-red-600 text-white text-sm active:bg-red-700"
+          type="submit"
+        >
+          Create
+        </button>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;
