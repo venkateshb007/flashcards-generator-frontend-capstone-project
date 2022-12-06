@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/flashcards-generator-frontend-capstone-project/static/css/main.a7e547a1.css",
-    "main.js": "/flashcards-generator-frontend-capstone-project/static/js/main.ff10e645.js",
+    "main.js": "/flashcards-generator-frontend-capstone-project/static/js/main.48740946.js",
     "index.html": "/flashcards-generator-frontend-capstone-project/index.html",
     "main.a7e547a1.css.map": "/flashcards-generator-frontend-capstone-project/static/css/main.a7e547a1.css.map",
-    "main.ff10e645.js.map": "/flashcards-generator-frontend-capstone-project/static/js/main.ff10e645.js.map"
+    "main.48740946.js.map": "/flashcards-generator-frontend-capstone-project/static/js/main.48740946.js.map"
   },
   "entrypoints": [
     "static/css/main.a7e547a1.css",
-    "static/js/main.ff10e645.js"
+    "static/js/main.48740946.js"
   ]
 }
