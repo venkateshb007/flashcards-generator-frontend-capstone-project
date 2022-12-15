@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/flashcard-generator/static/css/main.31164d63.css",
-    "main.js": "/flashcard-generator/static/js/main.6c7a8c74.js",
-    "index.html": "/flashcard-generator/index.html",
-    "main.31164d63.css.map": "/flashcard-generator/static/css/main.31164d63.css.map",
-    "main.6c7a8c74.js.map": "/flashcard-generator/static/js/main.6c7a8c74.js.map"
+    "main.css": "/flashcards-generator-frontend-capstone-project/static/css/main.31164d63.css",
+    "main.js": "/flashcards-generator-frontend-capstone-project/static/js/main.6c7a8c74.js",
+    "index.html": "/flashcards-generator-frontend-capstone-project/index.html",
+    "main.31164d63.css.map": "/flashcards-generator-frontend-capstone-project/static/css/main.31164d63.css.map",
+    "main.6c7a8c74.js.map": "/flashcards-generator-frontend-capstone-project/static/js/main.6c7a8c74.js.map"
   },
   "entrypoints": [
     "static/css/main.31164d63.css",
