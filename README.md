@@ -4,14 +4,13 @@ It helps to create multiple number of flashcards.
 
 # Description
 
-In this project we used Formik and Yup library for form validation and we used local storage to store and manipulate data.
-This project is created with the help of 5 react components, they are...,
-
+We created this project with the help of Front-end technologies called HTML, tailwind CSS and JS library i.e., React JS and also used some of the libraries called Formik and Yup for React form validation.
+This project contains 3 mail compoents 
 1. Navbar : This is common for all the components.
-2. Create New : It is used to create user flashcards.
-3. My flashcards : It show up list of flashcards.
-4. View card : It will show single card details.
-5. Modal : It used to show share Pop-Up.
+2. Create New : It is used to create multiple number of flashcards.
+3. My flashcards : In this component we can see all flashcards which are created.
+4. View card : By clicking on particular card in My-flashcards component, it will navigate to view card details page.
+5. Modal : It is used to show sharable links and we can easily copy browser URL by clicking on copy icon.
 
 ## Built With
 
@@ -27,12 +26,12 @@ Node Should Be Installed in Your System.
 
 ## Installation
 
-Download project using ZIP file.
+Use clone method or download project using ZIP file in your your computer.
 
-Open project in vs code.
+Open project in vs code and follow the below steps in Vs terminal to install node-modules.
 
-Follow the below steps in vs terminal.
-
+Method 1. Using downloaded ZIP file from GITHUB. 
+      
 1.Install node-modules
 
 ```bash
@@ -42,23 +41,21 @@ npm install
 2.Change directory
 
 ```bash
-cd myflashcards
+cd <project-name>
 ```
 
-3.Excution command
+3.Excution command (it will open localhost server)
 
 ```bash
 npm start
 ```
 
-or
+Method 2. Using clone method.
 
-Cloning Repository.
-
-1.Clone the repo
+1.Clone the repository
 
 ```bash
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/github_username_/project-name.git
 ```
 
 2.Install NPM packages
@@ -79,7 +76,7 @@ If you are not able to use Tailwind CSS, open official Tailwind CSS website and 
 
 ## Authors
 
-- [@Bapu-Gouda](https://github.com/bapurajj)
+- [@Bapu-Gouda](https://github.com/bapugouda-biradar)
 - [@Venkatesha](https://github.com/venkateshb007)
 
 ## Acknowledgements

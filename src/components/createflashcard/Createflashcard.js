@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Formik, Form, Field, ErrorMessage, FieldArray } from "formik";
 import { MdUploadFile, MdAdd, MdDeleteOutline } from "react-icons/md";
 import { BiEdit } from "react-icons/bi";
-import { validationSchema } from "../YupSchema";
+import { validationSchema } from "../../YupSchema/index.jsx";
 import { v4 as uuidv4 } from "uuid";
 
 //getting the values from local storage
@@ -19,13 +19,14 @@ const Createflashcard = () => {
   //main array of objects state used to store all data into local storage
   const [inputFields, setInputFields] = useState(getDatafromLocalstorage());
 
+ //initial form value for formik form handle (must)
   var initialValues = {
     groupname: "",
     description: "",
     flashterms: [{ term: "", defination: "" }],
   };
 
-  //form submits & capture i/p data using onsubmit function.
+  //form submits & capture input data using onsubmit function.
   const onSubmit = (values, action) => {
     setInputFields([...inputFields, { id: uuidv4(), ...values }]);
     action.resetForm();
@@ -61,10 +62,10 @@ const Createflashcard = () => {
                       />
                     </div>
 
-                    <div className="w-36 h-8 my-2 sm:mx-4 sm:my-5 border border-gray-400 rounded-sm hover:cursor-pointer ">
+                    <div className="w-36 h-8 mt-2 sm:mt-5 sm:mx-4 border border-gray-400 rounded-sm hover:cursor-pointer ">
                       <div className="text-purple-700 ">
                         <span className="text-xs flex items-center justify-center font-semibold ">
-                        <MdUploadFile className="h-auto w-6 mt-1 mr-2" />
+                        <MdUploadFile className="h-auto w-6 mt-1 mr-2 " />
                           Upload Image
                         </span>
                       </div>

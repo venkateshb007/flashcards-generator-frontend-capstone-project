@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Createflashcard from './Createflashcard.js';
+import Createflashcard from '../createflashcard/Createflashcard.js';
 
 // A Test Case [Pass / Faill]
 it('renders Add more dynamic input function', () => {

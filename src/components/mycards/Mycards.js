@@ -4,13 +4,14 @@ import { MdEast, MdDoubleArrow, MdDeleteOutline } from "react-icons/md";
 import {
   getMyflashCards,
   deleteFlashCardById,
-} from "../service/Localstorage.js";
+} from "../../service/Localstorage.js";
 
 const Mycards = () => {
   const navigate = useNavigate();
 
   const [myFlashCards, setMyTasks] = useState([]);
 
+  //state to handle for showing required number of cards
   const [noOfCards, setNoOfCards] = useState(6);
 
   // onClick function to see all hidden flashcards
@@ -18,9 +19,10 @@ const Mycards = () => {
     setNoOfCards(noOfCards + myFlashCards.length);
   };
 
-  //slice method used to select and view required no, of cards
+  //slice method used to select and view required number of cards
   const slicedCards = myFlashCards.slice(0, noOfCards);
 
+  //it will render every time when the component changes
   useEffect(() => {
     setMyTasks(getMyflashCards());
   }, []);
@@ -30,9 +32,10 @@ const Mycards = () => {
     deleteFlashCardById();
   };
 
-  //using onClick function, Navigating to card details component with unique card id.
+  //using onClick function, Navigating to particular card details page.
   const cardView = (card) => {
     navigate(`/view-card/details/${card.id}`);
+    window.location.reload();
   };
 
   return (
