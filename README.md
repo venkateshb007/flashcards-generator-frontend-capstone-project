@@ -5,7 +5,7 @@ It helps to create multiple number of flashcards.
 # Description
 
 We created this project with the help of Front-end technologies called HTML, tailwind CSS and JS library i.e., React JS and also used some of the libraries called Formik and Yup for React form validation.
-This project contains 3 main compoents 
+This project contains 3 main components 
 1. Navbar : This is common for all the components.
 2. Create New : It is used to create multiple number of flashcards.
 3. My flashcards : In this component we can see all flashcards which are created.
