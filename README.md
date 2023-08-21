@@ -4,7 +4,7 @@ It helps to create multiple number of flashcards.
 
 # Description
 
-We created this project with the help of Front-end technologies called HTML, tailwind CSS and JS library i.e., React JS and also used some of the libraries called Formik and Yup for React form validation.
+created this project with the help of Front-end technologies called HTML, tailwind CSS and JS library i.e., React JS and also used some of the libraries called Formik and Yup for React form validation.
 This project contains 3 main components 
 1. Navbar : This is common for all the components.
 2. Create New : It is used to create multiple number of flashcards.
@@ -74,9 +74,8 @@ Note:
 
 If you are not able to use Tailwind CSS, open official Tailwind CSS website and Follow the steps to set up for React environment.
 
-## Authors
+## Author
 
-- [@Bapu-Gouda](https://github.com/bapugouda-biradar)
 - [@Venkatesha](https://github.com/venkateshb007)
 
 ## Acknowledgements
